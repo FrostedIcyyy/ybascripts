@@ -9,8 +9,8 @@ warn("MoonLight Loaded!")
 
 wait(2)
 
-local BuyLucky = false
-local AutoSell = false
+local BuyLucky = true
+local AutoSell = true
 local SellItems = {
     ["Gold Coin"] = true,
     ["Rokakaka"] = true,
