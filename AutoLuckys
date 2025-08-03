@@ -17,15 +17,15 @@ local SellItems = {
     ["Pure Rokakaka"] = false,
     ["Mysterious Arrow"] = true,
     ["Diamond"] = true,
-    ["Ancient Scroll"] = true,
-    ["Caesar's Headband"] = true,
+    ["Ancient Scroll"] = false,
+    ["Caesar's Headband"] = false,
     ["Stone Mask"] = true,
     ["Rib Cage of The Saint's Corpse"] = true,
-    ["Quinton's Glove"] = true,
+    ["Quinton's Glove"] = false,
     ["Zeppeli's Hat"] = true,
     ["Lucky Arrow"] = false,
     ["Clackers"] = true,
-    ["Steel Ball"] = true,
+    ["Steel Ball"] = false,
     ["Dio's Diary"] = true
 }
 
