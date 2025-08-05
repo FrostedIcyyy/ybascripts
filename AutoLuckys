@@ -9,7 +9,7 @@ warn("MoonLight Loaded!")
 
 wait(2)
 
-local BuyLucky = true
+local BuyLucky = false
 local AutoSell = true
 local SellItems = {
     ["Gold Coin"] = true,
@@ -255,12 +255,6 @@ end
 
 local Money = Player.PlayerStats.Money
 
-if BuyLucky and not HasLuckyArrows() then
-    while Money.Value >= 50000 do
-        Player.Character.RemoteEvent:FireServer("PurchaseShopItem", {["ItemName"] = "1x Lucky Arrow"})
-        task.wait(.1)
-    end
-end
 
 while true do
     Teleport()
