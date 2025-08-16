@@ -14,18 +14,18 @@ local AutoSell = true
 local SellItems = {
     ["Gold Coin"] = true,
     ["Rokakaka"] = true,
-    ["Pure Rokakaka"] = false,
+    ["Pure Rokakaka"] = true,
     ["Mysterious Arrow"] = true,
     ["Diamond"] = true,
-    ["Ancient Scroll"] = false,
-    ["Caesar's Headband"] = false,
+    ["Ancient Scroll"] = true,
+    ["Caesar's Headband"] = true,
     ["Stone Mask"] = true,
     ["Rib Cage of The Saint's Corpse"] = true,
-    ["Quinton's Glove"] = false,
+    ["Quinton's Glove"] = true,
     ["Zeppeli's Hat"] = true,
     ["Lucky Arrow"] = false,
     ["Clackers"] = true,
-    ["Steel Ball"] = false,
+    ["Steel Ball"] = true,
     ["Dio's Diary"] = true
 }
 
