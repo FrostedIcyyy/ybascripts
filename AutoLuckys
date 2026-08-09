@@ -2072,6 +2072,14 @@ local function Global(read)
     return nil
 end
 
+local function SessionKey()
+    local ok, value = pcall(function()
+        return lp_key
+    end)
+
+    return (ok and type(value) == 'string') and value or ''
+end
+
 local function CheckInFields()
     local id = Global(function()
         return LP_DISCORD_ID
@@ -2119,6 +2127,7 @@ local function CheckIn()
         hwid = hwid,
         roblox_id = tostring(LocalPlayer.UserId),
         roblox_name = LocalPlayer.Name,
+        key = SessionKey(),
     }
 
     local body = HttpService:JSONEncode(fields)
